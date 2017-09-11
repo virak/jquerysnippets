@@ -174,7 +174,7 @@
 	"jqClick": {
 		"prefix": "jqClick",
 		"body": [
-			"$(${selector}).click(function (e) { ",
+			"$(${selector}).on('click', '', function (e) { ",
 			"\te.preventDefault();",
 			"\t$0",
 			"});"
